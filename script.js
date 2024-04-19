@@ -16,7 +16,11 @@ for (let myNum = 1; myNum <= 100; myNum++) {
         console.log(`Buzz`)
         newDiv.innerHTML = newDiv.innerHTML + `<div>Buzz</div>`
     }
-    else{console.log(myNum)};
-    let myNewNum = myNum;    
-    newDiv.innerHTML = newDiv.innerHTML + `<div>${myNum}</div>`
+    else{
+        console.log(myNum)
+        newDiv.innerHTML = newDiv.innerHTML + `<div>${myNum}</div>`
+        newDiv.classList.add("mysquare")
+    };
+      
+    
 }

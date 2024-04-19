@@ -5,3 +5,17 @@
     background-color: #222;
     color: white;
 }
+
+.mystamp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.mysquare{
+    width: 10%;
+    height: 10%;
+    background-color: crimson;
+}
