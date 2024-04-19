@@ -4,22 +4,22 @@ for (let myNum = 1; myNum <= 100; myNum++) {
     // Sia multipli di 3 che di 5
     if(myNum % 3 == 0 && myNum % 5 == 0){
         console.log(`FizzBuzz`)
-        newDiv.innerHTML = newDiv.innerHTML + `<div>FizzBuzz</div>`    
+        newDiv.innerHTML = newDiv.innerHTML + `<div class="myfizzbuzz">FizzBuzz</div>`    
     }
     // Multipli solo di 3
     else if(myNum % 3 == 0){
         console.log(`Fizz`)
-        newDiv.innerHTML = newDiv.innerHTML + `<div>Fizz</div>`    
+        newDiv.innerHTML = newDiv.innerHTML + `<div class="myfizz">Fizz</div>`    
     }
     // Multipli solo di 5
     else if(myNum % 5 == 0){
         console.log(`Buzz`)
-        newDiv.innerHTML = newDiv.innerHTML + `<div>Buzz</div>`
+        newDiv.innerHTML = newDiv.innerHTML + `<div class="mybuzz">Buzz</div>`
     }
     else{
         console.log(myNum)
-        newDiv.innerHTML = newDiv.innerHTML + `<div>${myNum}</div>`
-        newDiv.classList.add("mysquare")
+        newDiv.innerHTML = newDiv.innerHTML + `<div class="mysquare">${myNum}</div>`
+        
     };
       
     
